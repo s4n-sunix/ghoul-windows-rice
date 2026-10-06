@@ -35,9 +35,6 @@ I do not claim ownership of any copyrights
 
 ## Manual Installation 📚
 
-## Credits 📝
-Most of "dotfiles" was taken from this guy --> [MrDLingters](https://github.com/MrDLingters)
-
 ### 1. Clone Repository (or download zip and unzip it)
 ```bash
 git clone https://github.com/s4n-sunix/ghoul-windows-rice.git
@@ -55,7 +52,7 @@ git clone https://github.com/s4n-sunix/ghoul-windows-rice.git
 - **Resource Redirect** | Icon theme: Papirus Red
 
 ### 4. Terminal Setup
--- To install theme for oh-my-posh
+To install theme for oh-my-posh
 
 Open powershell.
 
@@ -69,7 +66,7 @@ In notepad paste this line, save and reload powershell:
 ```
 oh-my-posh init pwsh --config "path/to/theme" | Invoke-Expression
 ```
--- For fastfetch put *config.jsonc* in *users/"USERNAME"/.config/fasfetch.* **if folders don't exist, create them.**
+For fastfetch put *config.jsonc* in *users/"USERNAME"/.config/fasfetch.* **if folders don't exist, create them.**
 In *config.jsonc* replace this line:
 ```json
 "source": "E:\\GithubRepositories\\output.six"
@@ -87,11 +84,49 @@ with your path to logo.
 2. "Open Config"
 3. Move the contents of the folder *"YASB"* from repo into the folder that just opened. Replace if will need.
 
+**Don't forget to replace path to your folder with wallpapers in config.yaml**
+
+```yaml
+image_path: "your/path/to/wallpapers"
+```
+
 ### 7. Spotify configuration
 1. Install spicetify (with marketplace)
 ```shell
 iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex
 ```
-2. In marketplace press setting button
+2. In marketplace press settings button
 3. "Backup and Restore" --> Open
 4. Import --> select settings.json from Spicetify folder
+
+### 8. For Nilesoft Shell
+Simply put *theme.nss* from Nilesoft Shell folder in 
+```
+C:\Program Files\Nilesoft Shell\imports
+```
+With overwrite if needed
+
+### 9. Flow Launcher configuration
+Simply put *Monochrome Ghoul.xaml* from Flow Launcher folder in 
+```
+C:\Users\"USERNAME"\AppData\Roaming\FlowLauncher\Themes
+```
+
+### (OPTIONAL) How to make your own logo for Fastfetch with ImageMagick
+Open Terminal in folder where is your Image you want in Fastfetch and type:
+```cmd
+magic YourImage.png -resize 400x sixel:output.six
+```
+
+## Credits 📝
+Most of "dotfiles" was taken from this guy --> [MrDLingters](https://github.com/MrDLingters)
+
+And this one --> [43PR](https://github.com/43PR/dotfiles)
+
+Fastfetch --> [NephVx2](https://github.com/NephVx2/Fastfetch-ricing/tree/main)
+
+### 📸 More Screenshots
+
+![1](https://github.com/s4n-sunix/ghoul-windows-rice/blob/main/Extra1.png)
+![2](https://github.com/s4n-sunix/ghoul-windows-rice/blob/main/Extra2.png)
+![3](https://github.com/s4n-sunix/ghoul-windows-rice/blob/main/Extra3.png)
