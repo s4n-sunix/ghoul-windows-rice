@@ -1,10 +1,12 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/s4n-sunix/ghoul-windows-rice/refs/heads/main/Assets/Icon.jpg" width="80" />
-    <h2 align="center"> deadinside✓emo✓drain✓epileptic✓paranoid✓toxic✓bipolar✓depressed✓tilted✓antisocial✓sad✓broken✓aggressive✓psycho✓apathetic✓broken-hearted✓</h2>
+    <img src="https://github.com/s4n-sunix/ghoul-windows-rice/blob/main/Assets/Icon.jpg" width="300"/>
+    <h1 align="center"> deadinside✓emo✓drain✓epileptic✓paranoid✓toxic✓bipolar✓depressed✓tilted✓antisocial✓sad✓broken✓aggressive✓psycho✓apathetic✓broken-hearted✓</h1>
 </p>
 
-**DISCLAIMER:** Some files i took from other authors or changed them or made by myself.
-I do not claim ownership of any copyrights
+<p align="center">
+    <h2 align="center"> DISCLAIMER: Some files i took from other authors or changed them or made by myself
+    <p>I do not claim ownership of any copyrights.</p></h2>
+</p>
 
 ## Dependencies 📦
 
@@ -29,9 +31,9 @@ I do not claim ownership of any copyrights
     <h2 align="center"> 🤍❤️ Preview </h2>
 </p>
 
-![1](https://github.com/s4n-sunix/ghoul-windows-rice/blob/main/Preview1.png)
-![2](https://github.com/s4n-sunix/ghoul-windows-rice/blob/main/Preview2.png)
-![3](https://github.com/s4n-sunix/ghoul-windows-rice/blob/main/Preview3.png)
+![1](https://github.com/s4n-sunix/ghoul-windows-rice/blob/main/1.png)
+![2](https://github.com/s4n-sunix/ghoul-windows-rice/blob/main/2.png)
+![3](https://github.com/s4n-sunix/ghoul-windows-rice/blob/main/3.png)
 
 ## Manual Installation 📚
 
@@ -54,19 +56,19 @@ git clone https://github.com/s4n-sunix/ghoul-windows-rice.git
 ### 4. Terminal Setup
 To install theme for oh-my-posh
 
-Open powershell.
+Open Powershell.
 
 ```shell
 New-Item -Path $PROFILE -Type File -Force
 notepad $PROFILE
 ```
 
-In notepad paste this line, save and reload powershell:
+In notepad paste this line, save and reload Powershell:
 
 ```
 oh-my-posh init pwsh --config "path/to/theme" | Invoke-Expression
 ```
-For fastfetch put *config.jsonc* in *users/"USERNAME"/.config/fasfetch.* **if folders don't exist, create them.**
+For fastfetch put *config.jsonc* in *users/"USERNAME"/.config/fastfetch.* **if folders don't exist, create them.**
 In *config.jsonc* replace this line:
 ```json
 "source": "E:\\GithubRepositories\\output.six"
